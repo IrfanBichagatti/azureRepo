@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://irfan-cricketplayer.database.windows.net:1433;database=usertable;user=root123;password={Password@213};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://irfan-cricketplayer.database.windows.net:1433;database=dbo;user=root123;password={Password@213};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
   jpa:
     show-sql: true
     hibernate:
