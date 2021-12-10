@@ -1,11 +1,15 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://azuredatab.database.windows.net:1433;database=mySampleDB;user=root123;password={Password@213};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+    url: jdbc:sqlserver://irfan-cricketplayer.database.windows.net:1433;database=dbo;user=root123;password={Password@213};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
       dialect: org.hibernate.dialect.SQLServer2012Dialect
-
+    
+      server:
+      port: 9091
 
 
